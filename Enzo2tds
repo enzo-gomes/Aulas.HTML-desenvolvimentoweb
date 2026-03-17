@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+</head>
+<body>
+
+    <h1>Enzo Francisco</h1>
+    <h2>Estudande de TDS - IFMA</h2>
+    <p>_________________________________________________________________________________________________________________________________________________</p>
+    <p>Meu nome é Enzo e sou estudante do Instituto Federal do Maranhão. Faço o curso técnico Desenvolvimento de Sistemas.</p>
+ <img src="logohtml.png" alt="logo html" width="100" 
+ <br>
+ <p>_____________________________________________________________________________________________________________________________________________________</p>
+ <h3>Informções</h3>
+ <pre>
+Curso: Técnico em Desenvolvimento de Sistemas
+Instituição: IFMA
+Disciplina: Desenvolvimento Web I
+Ano: 2026   
+ </pre> 
+
+</body>
+</html>
