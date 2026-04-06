@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enzo, teste de com semantica html </title>
+</head>
+<body>
+    <!-- Cabeçalho-->
+    <header>
+        <h1>Curso Técnico em informática</h1>
+        <p>Página de exemplo com elementos básicos do HTML</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>|
+        <a href="#">Lista</a>|
+         <a href="#">Tabela</a>|
+         <a href="#">Links</a>
+    </nav>
+    <h2>Título da Seção</h2>
+    <p>Este é um exemplo de parágrafo em HTML. Aqui podemos escrever textos explicativos para os alunos. </p>
+    <p>HTML é a linguagem utilizada para estruturar páginas web</p>
+    <h3>Exemplos de Lista</h3>
+    <h4>Lista Não Ordenada</h4>
+    <ul> <strong>
+        <li>HTML</li>
+        <li> CSS</li>
+        <li>Javascript</li>
+        </strong>
+    </ul>
+    <h4>Lista Ordenada</h4>
+    <p>1.Abrir o VS Code</p>
+    <p>2.Criar arquivo index.html</p>
+    <p>3.Executar no navegador</p>
+
+    <h4>Lista De Definição</h4>
+    <dt>HTML</dt>
+    <dd></dd>
