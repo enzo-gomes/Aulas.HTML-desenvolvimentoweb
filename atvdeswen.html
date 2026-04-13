@@ -8,10 +8,12 @@
     </head>
     <h1>AULA HTML</h1>  
     <body>
-    <form action="cadastrar" method="post">
-           
+    <form action="cadastrar" method="post"
+    enctype="multipart/form-data">
+            <input type="file"  name="arquivo">
             <br>
-            <br>
+            <br> 
+            
         <label for="nome">Nome:</label>
         <input type="text" name="nome" id="nome"
         id="nome" placeholder="Digite seu nome">
@@ -25,9 +27,8 @@
 <br>
 
 <br>
-
-  <enctype="multipart/form-data">
-            <input type="file"  style="margin-left: 7px;"      name="arquivo"> 
+            <label for="keywords">Pesquisar:</label>
+            <input type="search" name="search" id="keywords">
             
     </form>
     
