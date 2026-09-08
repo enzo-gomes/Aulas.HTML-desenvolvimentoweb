@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+            background-color: #f0f0f0;
+        }
+        a{
+            color: #003366;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        header{
+            background-color: #ff9999;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border: 3px solid #cc3333;
+            position: relative;
+        }
+        header nav a {
+            margin: 0 10px;
+            color: white;
+            main{
+                display: flex;
+                flex-wrap: wrap;
+                padding: 20px;
+                gap: 20px;
+            }
+            
+        }
+        section{
+            flex: 3;
+            background-color: 99ccff;
+            padding: 15px;
+            border: 3px ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ritz Coins</h1>
+        <nav>
+            <a href="#">inicio</a>
+            <a href="#">sobre</a>
+            <a href="#">contato</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Melhor Loja de coins</h2>
+            <article>
+                <h3>COINS QUE TEMOS NO MERCADO</h3>
+                <p>
+                    Use seus VP para comprar skins de armas, acessórios, passes de batalha e outros conteúdos disponíveis na loja do jogo.
+                </p>
+                <figure>
+                    <img src="c:\Users\TI\Downloads\valorant.png.png" alt="Valorant" width="200">
+                    <figcaption>Imagem 1-Ilustração do Valorant</figcaption>
+                </figure>
+                <h3>Exemplo de Audio</h3>
+                <p>Ouca um audio de exemplo:</p>
+                <audio control>
+                    <source src="c:\Users\TI\Downloads\valorantclip.mp4.mp3"type="audio/mpeg">
+                    Seu navegador nao suporta o elemento de audio.
+                </audio>
+                <h3>Exemplo de Vídeo</h3>
+                <p>Assista a um video de exemplo:</p>
+                <video width="320" height="240" controls>
+                    <source src="c:\Users\TI\Downloads\valorantclip.mp4.mp4" type="video/mp4"
+                    Seu navegador nao suporta o elemento de video.
+                </video>
+            </article>
+        </section>
+        <aside>
+            <h2>Links Relacionados</h2>
+            <ul>
+                <li><a href="#">Mais noticias</a></li>
+                <li><a href="#">Tutoriais de HTML</a></li>
+                <li><a href="#">Contato do autor</a></li>
+            </ul>
+            <p>
+                O elemento <strong> &lt;aside&gt;</strong> é usado para conteúdos relacionados, como uma barra lateral ou informações extras.
+            </p>
+        </aside>
+    </main>
+     <footer>
+        <p>
+            Contato: enzo@ifma.edu.br<br>
+            © 2025 - Instituto Federal do Maranhão
+        </p>
+     </footer>
+    
+</body>
+</html>
